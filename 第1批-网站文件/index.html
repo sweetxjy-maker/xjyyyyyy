@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f4f4">
+  <meta name="description" content="邢甲一的交互体验设计作品集">
+  <title>邢甲一 Xing Jiayi — Interaction Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top"><span class="brand-dot"></span>邢甲一 <small>XING JIAYI</small></a>
+      <button class="menu-toggle" aria-label="打开导航" aria-expanded="false"><i></i><i></i></button>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#works">代表作品 <small>Works</small></a>
+        <a href="#experience">经历 <small>Experience</small></a>
+        <a href="#about">关于 <small>About</small></a>
+        <a href="#contact">联系 <small>Contact</small></a>
+      </nav>
+      <a class="resume-nav" href="assets/resume-xing-jiayi.pdf" download="邢甲一-个人简历.pdf">下载简历 / Resume <span>↗</span></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero page-wrap" aria-labelledby="hero-title">
+      <canvas class="hero-pixels" aria-hidden="true"></canvas>
+      <div class="hero-copy">
+        <div class="eyebrow"><span>Portfolio 2024 – 2026</span><b></b><span class="blue">Available for roles</span></div>
+        <h1 id="hero-title" class="hero-name" tabindex="0" aria-label="邢甲一，Xing Jiayi"><span class="hero-name-en" aria-hidden="true">Xing Jiayi</span><span class="hero-name-zh" aria-hidden="true">邢甲一</span></h1>
+        <div class="pills" aria-label="专业方向">
+          <span class="pill pill-dark">Interaction Designer</span>
+          <span class="pill">UI/UX Design</span>
+          <span class="pill">AI &amp; Multimodal Experiences</span>
+          <span class="pill pill-blue">Wuxi / China</span>
+        </div>
+        <p class="intro">一名喜欢探索新鲜事物的交互体验设计师，拥有交互与体验设计背景，关注 AI 与新兴交互；擅长从用户需求出发梳理体验与界面，探索人与产品之间更自然、直观的连接。</p>
+      </div>
+      <nav class="hero-index" aria-label="页面目录">
+        <a href="#works"><span>01</span><strong>Selected Works</strong><img class="hero-index-arrow" src="assets/hero-arrow.png" alt="" aria-hidden="true"></a>
+        <a href="#experience"><span>02</span><strong>Experience</strong><img class="hero-index-arrow" src="assets/hero-arrow.png" alt="" aria-hidden="true"></a>
+        <a href="#about"><span>03</span><strong>About Me</strong><img class="hero-index-arrow" src="assets/hero-arrow.png" alt="" aria-hidden="true"></a>
+      </nav>
+    </section>
+
+    <section class="keywords-section" aria-label="设计关键词">
+      <div class="keywords-inner page-wrap">
+        <div class="keyword-lanes" id="keyword-lanes" aria-label="可点击收集的设计关键词"></div>
+        <div class="keywords-finale" id="keywords-finale" aria-live="polite" hidden>
+          <strong>You found them all!</strong>
+          <span>这些就是我的设计关键词 ✦</span>
+          <button class="keywords-replay" id="keywords-replay" type="button" hidden>再看一次 / Replay ↗</button>
+        </div>
+        <canvas class="keywords-fireworks" id="keywords-fireworks" aria-hidden="true"></canvas>
+      </div>
+    </section>
+
+    <section class="section-wrap works" id="works" aria-labelledby="works-title">
+      <div class="section-heading">
+        <div class="heading-main"><h2 id="works-title">01 / Selected Works</h2><span>代表作品精选</span></div>
+        <span class="section-meta">INTERACTION ARCHITECTURE &amp; UI SYSTEM</span>
+      </div>
+      <div class="project-list">
+        <article class="project" data-project="cloudtune">
+          <div class="project-copy">
+            <div class="project-kicker"><span>PROJECT 01 · MUSIC EXPERIENCE</span><time>2026</time></div>
+            <h3>云朵音乐 CloudTune</h3>
+            <p>面向年轻用户的智能音乐服务平台，聚焦个性化听歌与情绪场景需求，融合智能推荐、自然交互与音乐创作，为用户提供更便捷、更贴合个人需求的音乐体验。</p>
+            <ul class="tags"><li>UI/UX</li><li>Interaction Design</li><li>Mobile App</li></ul>
+            <a class="case-link" href="case-study.html?project=cloudtune">查看设计案例细节 / View Case Study <b>↗</b></a>
+          </div>
+          <a class="project-stage" href="case-study.html?project=cloudtune" aria-label="查看云朵音乐项目">
+            <img src="assets/cloudtune.png" alt="云朵音乐 CloudTune 项目界面展示" loading="lazy">
+          </a>
+        </article>
+
+        <article class="project reverse" data-project="robot">
+          <div class="project-copy">
+            <div class="project-kicker"><span>PROJECT 02 · MULTIMODAL INTERACTION</span><time>2026</time></div>
+            <h3>科大讯飞 · 家庭陪伴机器人</h3>
+            <p>围绕家庭生活与健康管理场景，参与机器人软件端的软硬件协同体验设计，探索语音、头部表情与机身大屏之间的多模态交互，让服务反馈更加自然、清晰且有亲和力。</p>
+            <ul class="tags"><li>UI/UX</li><li>VUI</li><li>Multimodal Interaction</li><li>Animation Design</li></ul>
+            <a class="case-link" href="case-study.html?project=robot">查看设计案例细节 / View Case Study <b>↗</b></a>
+          </div>
+          <a class="project-stage" href="case-study.html?project=robot" aria-label="查看家庭陪伴机器人项目">
+            <img src="assets/iflytek-robot.png" alt="科大讯飞家庭陪伴机器人项目界面展示" loading="lazy">
+          </a>
+        </article>
+
+        <article class="project" data-project="wander">
+          <div class="project-copy">
+            <div class="project-kicker"><span>PROJECT 03 · SMART COCKPIT HMI</span><time>2026</time></div>
+            <h3>海途 · Wander</h3>
+            <p>基于比亚迪智能座舱 UI 设计大赛，以“旅途即体验”为核心，将海面与道路的流动意象融入车载 HMI，通过浅色视觉、卡片化信息与极简操作，营造清晰从容的驾乘体验，带来更自然、有温度的陪伴。</p>
+            <ul class="tags"><li>HMI</li><li>Interaction Design</li><li>Motion Design</li></ul>
+            <a class="case-link" href="case-study.html?project=wander">查看设计案例细节 / View Case Study <b>↗</b></a>
+          </div>
+          <a class="project-stage" href="case-study.html?project=wander" aria-label="查看海途 Wander 项目">
+            <img src="assets/wander-hmi.png" alt="海途 Wander 智能座舱 HMI 项目界面展示" loading="lazy">
+          </a>
+        </article>
+
+        <article class="project reverse" data-project="dtpark">
+          <div class="project-copy">
+            <div class="project-kicker"><span>PROJECT 04 · AGV PARKING APP</span><time>2025</time></div>
+            <h3>代停 · DT Park</h3>
+            <p>围绕 AGV 自动停车场的服务流程，梳理用户从查找停车场、预约车位到存车、取车的完整体验，针对操作引导、车辆状态与取车信息等环节，设计清晰便捷的一站式停车服务。</p>
+            <ul class="tags"><li>UI/UX</li><li>Mobile App</li><li>System Design</li></ul>
+            <a class="case-link" href="case-study.html?project=dtpark">查看设计案例细节 / View Case Study <b>↗</b></a>
+          </div>
+          <a class="project-stage" href="case-study.html?project=dtpark" aria-label="查看代停项目">
+            <img src="assets/dt-park.png" alt="代停 DT Park 项目界面展示" loading="lazy">
+          </a>
+        </article>
+
+        <article class="project" data-project="trees">
+          <div class="project-copy">
+            <div class="project-kicker"><span>PROJECT 05 · SERVICE SYSTEM DESIGN</span><time>2026</time></div>
+            <h3>树木的 N 种打开方式</h3>
+            <p>以树木为载体，构建连接自然场景与数字体验的探索服务。通过实体探索工具与小程序联动，支持树木观察、信息记录、探索任务与内容分享，让用户在探索过程中重新建立与自然的连接。</p>
+            <ul class="tags"><li>Service System Design</li><li>Experience Design</li></ul>
+            <a class="case-link" href="case-study.html?project=trees">查看设计案例细节 / View Case Study <b>↗</b></a>
+          </div>
+          <a class="project-stage" href="case-study.html?project=trees" aria-label="查看树木探索项目">
+            <img src="assets/trees-exploration.png" alt="树木的 N 种打开方式项目视觉展示" loading="lazy">
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap experience" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading">
+        <div class="heading-main"><h2 id="experience-title">02 / Experience</h2><span>实习 / 项目经历</span></div>
+        <span class="section-meta">CAREER MILESTONES &amp; PRACTICE</span>
+      </div>
+      <div class="experience-list">
+        <article class="experience-row"><div class="experience-date"><strong>2023.06 — 2024.01</strong><span>实习</span></div><div class="experience-detail"><div class="experience-title"><h3>科大讯飞 · 家庭陪伴机器人</h3><span class="role-pill">交互体验设计实习生</span></div><ul><li><strong>0–1产品体验搭建：</strong>参与家庭机器人软件端从 0–1 设计，参与核心交互框架搭建，覆盖用药管理、用户管理、AI 诊室、健康监测等核心专项，结合AI辅助方案探索与设计迭代，推进交互至高保真落地，交付界面60+。</li><li><strong>多模态交互体验：</strong>围绕机器人语音、大屏与头部表情的协同体验，参与 VUI 交互及头部表情动效设计；基于交互状态梳理表情反馈与切换逻辑，并使用 Rive 完成5+组核心表情动效落地。</li><li><strong>设计体系沉淀：</strong>参与软件端设计组件库搭建，沉淀通用组件与界面规范，并结合业务迭代持续完善，提升体验一致性。</li></ul></div></article>
+        <article class="experience-row"><div class="experience-date"><strong>2024.10 — 2025.01</strong><span>实习</span></div><div class="experience-detail"><div class="experience-title"><h3>武汉视航衍艺 · 品牌设计与运营</h3><span class="role-pill">品牌设计实习生</span></div><ul><li><strong>品牌运营与用户增长：</strong>参与品牌视觉规范优化、媒体内容运营及营销活动策划，负责宣传物料设计、视频脚本撰写与剪辑；结合用户数据优化内容呈现与传播策略，推动品牌曝光与账号浏览量提升。</li><li><strong>高校品牌整合营销：</strong>参与校企合作高校品牌升级与校园文创体系建设，参与数字营销触点建设，累计完成 15+ 活动界面与 H5 设计，并负责 IP 拓展、包装延展及品牌周边设计。</li></ul></div></article>
+        <article class="experience-row"><div class="experience-date"><strong>2025.12 — 2026.03</strong><span>项目</span></div><div class="experience-detail"><div class="experience-title"><h3>比亚迪智能座舱UI设计大赛（8强）</h3><span class="role-pill">HMI设计</span></div><ul><li><strong>交互与HMI设计：</strong>完成车载 HMI 概念设计《海途 · Wander》，前期完成5个品牌竞品分析、用户访谈及实地调研；输出20+昼夜双模式车载界面及24+图标设计，负责整体界面信息架构搭建及视觉语言构建。</li><li><strong>动效与情感化体验设计：</strong>负责项目整体动效视频与动态交互效果制作，输出多组界面动态演示方案；完成“小海”AI语音助手情感陪伴体系设计，结合导航、音乐及行驶状态设计场景化动态反馈机制，提升智能座舱的沉浸式交互体验。</li></ul></div></article>
+        <article class="experience-row"><div class="experience-date"><strong>2026.04 — 2026.07</strong><span>项目</span></div><div class="experience-detail"><div class="experience-title"><h3>老板电器智能无人厨房产品服务系统设计</h3><span class="role-pill">B端产品服务系统设计</span></div><ul><li><strong>B端智能商厨系统研究：</strong>围绕老板电器 AI 食神大模型与智能厨房生态，面向商场高频餐饮等B端运营场景，完成无人厨房竞品分析、用户需求研究及系统运行逻辑梳理，输出厨房功能分区、动线优化及空间布局策略。</li><li><strong>智能厨房服务方案设计：</strong>完成厨房动线、餐厅布局及“1+1+1+X”点餐模式设计，输出完整智能商厨系统解决方案。</li></ul></div></article>
+      </div>
+    </section>
+
+    <section class="section-wrap about" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <div class="heading-main"><h2 id="about-title">03 / About Me</h2><span>关于我</span></div>
+        <span class="section-meta">DESIGNER BIO &amp; PHILOSOPHY</span>
+      </div>
+      <div class="about-grid">
+        <aside class="about-left">
+          <div class="about-tabs" role="tablist" aria-label="个人照片">
+            <button class="about-tab active" type="button" role="tab" aria-selected="true" aria-controls="about-portrait" data-photo="daily">Daily</button>
+            <button class="about-tab" type="button" role="tab" aria-selected="false" aria-controls="about-portrait" data-photo="model">Model</button>
+            <button class="about-tab" type="button" role="tab" aria-selected="false" aria-controls="about-portrait" data-photo="game">Game</button>
+          </div>
+          <div class="portrait-frame" id="about-portrait" role="tabpanel" aria-label="Daily 照片">
+            <img class="portrait" src="assets/about-daily.jpg" alt="邢甲一的日常照片" loading="lazy">
+          </div>
+          <div class="education">
+            <span class="subheading">EDUCATION BACKGROUND</span>
+            <div class="school"><strong>江南大学 · 硕士研究生在读</strong><time>2025.09 — 至今</time><small>交互与体验设计</small></div>
+            <div class="school"><strong>武汉理工大学 · 本科</strong><time>2021.09 — 2025.06</time><small>产品设计（信息交互方向）</small></div>
+          </div>
+        </aside>
+        <div class="about-right">
+          <div class="philosophy"><span class="subheading blue">DESIGN PHILOSOPHY</span><h3>“热衷于探索人机协同的新范式，<br>寻找理性逻辑与细腻体验的平衡。”</h3><p id="about-copy">Hello，我是邢甲一。一名喜欢探索新鲜事物的交互体验设计师，目前就读于江南大学交互与体验设计专业。我关注 AI 与新兴交互，也喜欢从真实的用户需求出发，把复杂的功能梳理成自然、清晰的体验。</p></div>
+          <div class="honors"><span class="subheading">HONORS &amp; AWARDS</span><ul><li><span>第十五届全国大学生广告艺术大赛</span><b>国家级二等奖</b></li><li><span>第十七届中国好创意暨全国数字设计大赛</span><b>国家级二等奖</b></li><li><span>第十七届中国大学生计算机设计大赛</span><b>省级一等奖</b></li><li><span>第十五届全国大学生广告艺术大赛</span><b>省级三等奖</b></li><li><span>第十二届未来设计师全国高校数字艺术设计大赛</span><b>省级三等奖</b></li></ul></div>
+          <div class="skills"><span class="subheading">SKILL STACKING</span><img src="assets/skill-stacking-tools.png" alt="Figma、Adobe、Sketch 等设计工具" loading="lazy"><img src="assets/skill-stacking-ai.png" alt="ChatGPT、Gemini、Claude 等 AI 工具" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap contact" id="contact" aria-labelledby="contact-title">
+      <canvas class="contact-pixels" aria-hidden="true"></canvas>
+      <div class="contact-card">
+        <div class="contact-eyebrow"><b></b> LET’S WORK TOGETHER.</div>
+        <h2 id="contact-title">期待和你一起，<br>把想法变成真实的体验～</h2>
+        <p>我目前就读于江南大学交互与体验设计专业，正在寻找 UI/UX 或交互设计相关的实习机会，欢迎联系。</p>
+        <div class="contact-actions"><a class="button button-dark" href="mailto:18239930731@163.com"><span>✉</span> 18239930731@163.com</a><a class="button button-light" href="assets/resume-xing-jiayi.pdf" download="邢甲一-个人简历.pdf"><span>↓</span> 下载简历 PDF</a></div>
+        <div class="contact-meta"><button data-copy="18239930731">WeChat: 18239930731</button><i>·</i><span>Wuxi (UTC+8)</span><i>·</i><a href="mailto:18239930731@163.com">Email ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-wordmark" href="#top">邢甲一 Xing Jiayi</a><span>INTERACTION &amp; EXPERIENCE DESIGN</span><a class="back-top" href="#top">Back to Top ↑</a></footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
